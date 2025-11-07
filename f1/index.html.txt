@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Pole Position Portal</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #16161a; color: #fff; margin: 0; }
+  header, footer { background: #e10600; color: #fff; text-align: center; padding: 30px 15px; }
+  nav { background: #232323; text-align: center; padding: 12px 0; }
+  nav a { color: #fff; margin: 0 22px; text-decoration: none; font-weight: bold; font-size: 17px; }
+  nav a:hover { text-decoration: underline; }
+  section { max-width: 950px; margin: 28px auto; padding: 28px; background: #22223b; border-radius: 12px; box-shadow: 0 0 20px #0003; }
+  h2 { color: #e10600; }
+  h1 { font-size: 2.6em; margin: 0 0 10px 0; }
+  .slogan { font-size: 1.3em; color: #facf39; margin-bottom: 0; }
+  .gallery { display: flex; flex-wrap: wrap; gap: 18px; justify-content: center; }
+  .gallery img { width: 290px; border-radius: 10px; box-shadow: 0 4px 14px #0005; margin-bottom: 12px; }
+  .centered-img { display:block; margin:0 auto 18px auto; border-radius:8px; box-shadow:0 4px 14px #0004; }
+  .caption { color: #fcc419; font-size: 0.95em; text-align: center; margin-bottom: 22px; }
+</style>
+</head>
+<body>
+  <header>
+    <img src="image6.jpg" alt="F1 Logo" class="centered-img" style="width:90px;">
+    <h1>Pole Position Portal</h1>
+    <div class="slogan">Chasing Speed, Living the Dream</div>
+    <p>Welcome to your one-stop hub for all things Formula One &mdash; news, teams, race calendars, and F1 history!</p>
+  </header>
+
+  <nav>
+    <a href="#news">News</a>
+    <a href="#teams">Teams</a>
+    <a href="#drivers">Drivers</a>
+    <a href="#calendar">Races</a>
+    <a href="#history">History</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="news">
+    <h2>Latest News</h2>
+    <img src="image1.jpg" alt="Ferrari Driver with Fans" class="centered-img" style="max-width:430px;">
+    <div class="caption">F1 fever: Fans united by the speed.</div>
+    <p>Get the latest updates on grand prix results, driver changes, technical breakthroughs, and behind-the-scenes F1 drama!</p>
+  </section>
+
+  <section id="teams">
+    <h2>Top Teams of 2025</h2>
+    <img src="image2.jpg" alt="2025 Grid" class="centered-img" style="max-width:500px;">
+    <div class="caption">Meet the stars of the 2025 grid.</div>
+    <ul>
+      <li>Mercedes-AMG Petronas Formula One Team</li>
+      <li>Oracle Red Bull Racing</li>
+      <li>Scuderia Ferrari</li>
+      <li>McLaren F1 Team</li>
+      <li>BWT Alpine F1 Team</li>
+      <li>Aston Martin Aramco Cognizant F1 Team</li>
+      <li>Visa Cash App RB</li>
+      <li>Williams Racing</li>
+      <li>Stake F1 Team Kick Sauber</li>
+      <li>Haas F1 Team</li>
+    </ul>
+  </section>
+
+  <section id="drivers">
+    <h2>Legendary Drivers</h2>
+    <img src="image8.jpg" alt="Michael Schumacher" class="centered-img" style="max-width:400px;">
+    <div class="caption">“Once something is a passion, the motivation is there.” – Michael Schumacher</div>
+    <img src="image9.jpg" alt="Ayrton Senna" class="centered-img" style="max-width:400px;">
+    <div class="caption">“We need to believe it is possible to win.” – Ayrton Senna</div>
+    <ul>
+      <li>Lewis Hamilton</li>
+      <li>Max Verstappen</li>
+      <li>Charles Leclerc</li>
+      <li>Fernando Alonso</li>
+      <li>Lando Norris</li>
+      <li>Sergio Pérez</li>
+      <li>George Russell</li>
+      <li>Carlos Sainz</li>
+      <li>Oscar Piastri</li>
+      <li>Esteban Ocon</li>
+    </ul>
+    <img src="image7.jpg" alt="F1 Driver helmet close up" class="centered-img" style="max-width:250px;">
+    <div class="caption">Motivation on and off the track.</div>
+  </section>
+
+  <section id="calendar">
+    <h2>2025 Race Calendar</h2>
+    <img src="image3.jpg" alt="F1 Ferrari 2025" class="centered-img" style="max-width:430px;">
+    <div class="caption">Nothing beats race day adrenaline.</div>
+    <ul>
+      <li>Bahrain Grand Prix – Sakhir</li>
+      <li>Saudi Arabian Grand Prix – Jeddah</li>
+      <li>Australian Grand Prix – Melbourne</li>
+      <li>Japan Grand Prix – Suzuka</li>
+      <li>Chinese Grand Prix – Shanghai</li>
+      <li>Miami Grand Prix – Miami</li>
+      <li>Monaco Grand Prix – Monte Carlo</li>
+      <li>British Grand Prix – Silverstone</li>
+      <li>Singapore Grand Prix – Marina Bay</li>
+      <li>Abu Dhabi Grand Prix – Yas Island</li>
+    </ul>
+  </section>
+
+  <section id="history">
+    <h2>History & Fascinating Facts</h2>
+    <img src="image10.jpg" alt="Podium celebration" class="centered-img" style="max-width:380px;">
+    <div class="caption">A victory pose for the ages!</div>
+    <p>Formula One has thrilled fans since its inaugural championship in 1950. F1 is a sport of speed, innovation, and legendary rivalries.<br>
+      Did you know Michael Schumacher and Lewis Hamilton are tied for the most World Championships? Or that the Monaco Grand Prix remains the most prestigious race?<br>
+      Dive deeper into the history, and discover the moments that shaped the world of Formula One!
+    </p>
+  </section>
+
+  <section id="gallery">
+    <h2>Fan Gallery</h2>
+    <div class="gallery">
+      <div>
+        <img src="image4.jpg" alt="Ferrari car front view">
+        <div class="caption">A symbol of speed: Scuderia Ferrari</div>
+      </div>
+      <div>
+        <img src="image5.jpg" alt="Red Bull car on the track">
+        <div class="caption">Red Bull electric on the street circuit.</div>
+      </div>
+      <div>
+        <img src="image11.jpg" alt="Ferrari driver celebrating">
+        <div class="caption">Ready, steady, go!</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <label>Name:</label><br>
+      <input type="text" name="name"><br><br>
+      <label>Email:</label><br>
+      <input type="email" name="email"><br><br>
+      <label>Message:</label><br>
+      <textarea name="message" rows="4" cols="40"></textarea><br><br>
+      <input type="submit" value="Send">
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2025 Pole Position Portal. Not affiliated with Formula One Group. For fans, by fans.</p>
+  </footer>
+</body>
+</html>
